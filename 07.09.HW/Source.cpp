@@ -16,7 +16,16 @@ private:
 	char* name;
 	char* model;
 public:
-
+	Car()
+	{
+		name = nullptr;
+		model = nullptr;
+	}
+	Car(char* n, char* m)
+	{
+		name = n;
+		model = m;
+	}
 };
 
 int main()
