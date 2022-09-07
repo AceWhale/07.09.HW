@@ -10,6 +10,15 @@ public:
 
 };
 
+class Car
+{
+private:
+	char* name;
+	char* model;
+public:
+
+};
+
 int main()
 {
 
