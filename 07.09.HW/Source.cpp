@@ -100,4 +100,8 @@ int main()
 	Point obj1;
 	obj1.Init();
 	obj1.Print();
+	cout << endl;
+	Car obj2;
+	obj2.Init();
+	obj2.Print();
 }
