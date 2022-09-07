@@ -28,7 +28,24 @@ public:
 		cout << "Y = ";
 		cin >> y;
 	}
-
+	void SetX()
+	{
+		cout << "X = ";
+		cin >> x;
+	}
+	void GetX()
+	{
+		cout << "X = " << x << endl;
+	}
+	void SetY()
+	{
+		cout << "Y = ";
+		cin >> y;
+	}
+	void GetY()
+	{
+		cout << "\nY = " << y << endl;
+	}
 };
 
 int main()
